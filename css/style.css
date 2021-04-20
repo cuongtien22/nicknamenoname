@@ -1,0 +1,126 @@
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+}
+html{
+	scroll-behavior: smooth;
+}
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+material-icons-outline {
+  font-family: 'Material Icons Outline';
+}
+#wrapper{
+	width: 100%;
+	position: relative;
+}
+.container{
+	width: 1200px;
+	margin: 0 auto;
+}
+.header{
+	width: 100%;
+	height: 100px;
+	background: rgba(0,0,0,0.30);
+/*	position: absolute;*/
+	position: fixed;
+	z-index: 10;	
+}
+.header a:hover{
+	opacity: 0.8;
+}
+.logo{
+	width: 15%;
+	height: 100px;
+/*	background: rgba(165,96,97,1.00);*/
+	float: left;
+}
+.logo a{
+	text-decoration: none;
+	color: white;
+	font-size: 32px;
+	line-height: 100px;
+}
+.menu{
+	width: 75%;
+	height: 100px;
+/*	background: rgba(151,221,211,1.00);*/
+	float: left;
+}
+.menu ul{
+	list-style: none;
+	text-align: center;
+}
+.menu ul li{
+	display: inline-block;
+	margin: 0 20px;
+	line-height: 100px;
+}
+.menu ul li a{
+	font-size: 20px;
+	color: white;
+	text-decoration: none;
+}
+.icon{
+	width: 10%;
+	height: 100px;
+/*	background: rgba(161,194,142,1.00);*/
+	float: left;
+}
+.icon span{
+/*	color: red;*/
+	font-size: 16px;
+}
+.icon a{
+	margin-right: 10px;
+	line-height: 100px;
+	color: white;
+	text-decoration: none;
+}
+.main{
+	width: 100%;
+}
+.banner{
+	width: 100%;
+	height: 100vh;
+/*	background: rgba(235,174,175,1.00);*/
+	overflow: hidden;
+}
+.banner video{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.about{
+	width: 100%;
+	height: 600px;
+	background: rgba(220,176,177,1.00);
+}
+.services{
+	width: 100%;
+	height: 600px;
+	background: rgba(220,200,177,1.00);
+}
